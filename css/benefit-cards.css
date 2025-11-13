@@ -20,13 +20,85 @@
   /* ------------ BREAKPOINTS ------------ */
   --bp-3col: 900px;   /* switch from 3 → 2 */
   --bp-2col: 600px;   /* switch from 2 → 1 */
+
+  --brand-1: #4db6ac;
+  --brand-2: #81c784;
+  --text: #263238;
+  --text-muted: #546e7a;
+  --white: #fff;
+  --max-width: 1100px;
+  --radius: 10px;
+  --gap: 2rem;
 }
+
+img {
+  max-width: 100%;
+  display: block;
+}
+body {
+  background: #f3f4f6; /* light gray page background */
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  color: var(--text);
+  line-height: 1.6;
+    /* Your SVG background: */
+  /* background-image: url("./images/backgrounds/bg-light-3.svg"); */
+  background-position: center;
+  background-attachment: fixed;
+  background: linear-gradient(135deg, var(--brand-1) 0%, var(--brand-2) 100%);
+}
+
+
+/* =========================
+   2. Header & Navigation
+========================= */
+header {
+  /* background: #ffffff; */
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.25rem 1rem;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(6px);
+}
+.hero-logo {
+  height: 32px;
+}
+
+ul.nav-links{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2.25rem;
+  justify-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #00796b;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #004d40;
+}
+
 /* ===================================
    Title and Intro
 =================================== */
 * {
   font-weight: 600;
   font-family: inconsolata, monospace;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .benefits-container {
