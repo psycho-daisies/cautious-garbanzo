@@ -1,31 +1,51 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>C4PIN - New Client Application</title>
 </head>
+
 <body style="margin:0; padding:0; background-color:#f4f4f4; font-family:Arial, Helvetica, sans-serif;">
 
-    <!-- Full-width background table -->
-    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color:#f4f4f4; padding-top:20px; padding-bottom:20px;">
+    <!-- Full Table -->
+    <table width="100%" border="0" cellspacing="0" cellpadding="0"
+        style="background-color:#f4f4f4; padding-top:20px; padding-bottom:20px;">
         <tr>
             <td align="center">
 
-                <!-- Main card wrapper -->
-                <table width="620" border="0" cellspacing="0" cellpadding="0" style="width:620px; max-width:100%; background-color:#ffffff; border-radius:6px; border:1px solid #e5e7eb;">
+                <!-- Main Table Wrapper -->
+                <table width="620" border="0" cellspacing="0" cellpadding="0"
+                    style="width:620px; max-width:100%; background-color:#ffffff; border-radius:6px; border:1px solid #e5e7eb;">
                     <!-- Header -->
-
                     <tr>
-                        <td style="background-color:#1f2937; padding:16px 24px 0px 24px; color:#ffffff;">
-                            <p style="margin:0; font-size:18px; font-weight:bold;">
-                                C4PIN - New Client Application Submitted
-                            </p>
-                            <p>Submitted on: {submission.created_at}</p>
+                        <td style="background-color:#1f2937; padding:16px 24px; color:#ffffff;">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td
+                                        style="vertical-align:middle; width:48px; padding-right:12px; padding-top: 8px; padding-bottom: 8px;">
+                                        <img src="c4pin-7.svg" alt="C4PIN Logo" height="48"
+                                            style="display:block; border:0; outline:none;">
+                                    </td>
 
+                                    <td style="vertical-align:middle; padding-left:20px;">
+                                        <p style="margin:0; font-size:18px; font-weight:bold;">
+                                            New Client Application Submitted
+                                        </p>
+                                        <p style="margin:4px 0 0; font-size:12px; color:#e5e7eb;">
+                                            Submitted on: {submission.created_at}
+                                        </p>
+                                    </td>
+                                    <td style="width:40px;">
+                                        <img src="check-mark.png" alt="Checkmark" width="32" height="32"
+                                            style="display:block; border:0; outline:none;">
+                                    </td>
+                                </tr>
+                            </table>
                         </td>
                     </tr>
 
-                    <!-- Quick summary -->
+                    <!-- Quick Summary Section -->
                     <tr>
                         <td style="padding:16px 24px 8px 24px;">
                             <p style="margin:0 0 6px; font-size:14px; color:#111827;">
@@ -49,7 +69,7 @@
                         </td>
                     </tr>
 
-                    <!-- Contact & Address -->
+                    <!-- Contact & Address Section -->
                     <tr>
                         <td style="padding:14px 24px 0 24px;">
                             <p style="margin:0 0 6px; font-size:14px; color:#111827; font-weight:bold;">
@@ -67,7 +87,7 @@
                         </td>
                     </tr>
 
-                    <!-- Payment Information -->
+                    <!-- Payment Information Section -->
                     <tr>
                         <td style="padding:14px 24px 0 24px;">
                             <p style="margin:0 0 6px; font-size:14px; color:#111827; font-weight:bold;">
@@ -84,7 +104,7 @@
                         </td>
                     </tr>
 
-                    <!-- Client Computer Use History -->
+                    <!-- Client Computer Use History Section -->
                     <tr>
                         <td style="padding:14px 24px 0 24px;">
                             <p style="margin:0 0 6px; font-size:14px; color:#111827; font-weight:bold;">
@@ -101,7 +121,7 @@
                         </td>
                     </tr>
 
-                    <!-- Appointment -->
+                    <!-- Appointment Section -->
                     <tr>
                         <td style="padding:14px 24px 0 24px;">
                             <p style="margin:0 0 6px; font-size:14px; color:#111827; font-weight:bold;">
@@ -114,7 +134,7 @@
                         </td>
                     </tr>
 
-                    <!-- Miscellaneous -->
+                    <!-- Miscellaneous Section -->
                     <tr>
                         <td style="padding:14px 24px 16px 24px;">
                             <p style="margin:0 0 6px; font-size:14px; color:#111827; font-weight:bold;">
@@ -144,4 +164,5 @@
     </table>
 
 </body>
+
 </html>
