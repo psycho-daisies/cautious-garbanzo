@@ -1,0 +1,81 @@
+<table style="background-color: #f4f4f4; padding-top: 5px; padding-bottom: 20px;" border="0" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td align="center"><!-- Main Table Wrapper -->
+<table style="width: 620px; max-width: 100%; background-color: #ffffff; border-radius: 6px; border: 1px solid #e5e7eb;" border="0" width="620" cellspacing="0" cellpadding="0"><!-- Header -->
+<tbody>
+<tr>
+<td style="background-color: #1f2937; padding: 16px 24px; color: #ffffff;">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="vertical-align: middle; width: 64px; padding-right: 12px; padding-top: 8px; padding-bottom: 8px;"><img style="display: block; border: 0; outline: none; width: 120px; height: 42px;" src="https://c4pin.org/wp-content/uploads/2025/11/c4pin-7-300x105.png" alt="C4PIN Logo" width="120" height="42" /></td>
+<td style="vertical-align: middle; padding-left: 20px;">
+<p style="margin: 0; font-size: 18px; font-weight: bold;">New Client Application Submitted</p>
+<p style="margin: 4px 0 0; font-size: 12px; color: #e5e7eb;">Submitted on: {submission.created_at}</p>
+</td>
+<td style="width: 40px;"><img style="display: block; border: 0; outline: none;" src="https://c4pin.org/wp-content/uploads/2025/11/check-mark.png" alt="Checkmark" width="32" height="32" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- Quick Summary Section -->
+<tr>
+<td style="padding: 16px 24px 8px 24px;">
+<p style="margin: 0 0 6px; font-size: 14px; color: #111827;"><strong>Client:</strong> {inputs.names.first_name} {inputs.names.last_name}</p>
+<p style="margin: 0 0 4px; font-size: 12px; color: #4b5563;"><strong>Email:</strong> {inputs.email}   |   <strong>Phone:</strong> {inputs.phone}</p>
+<p style="margin: 4px 0 0; font-size: 12px; color: #4b5563;"><strong>Access to Smart Phone:</strong> {input_radio_smart_phone_access}</p>
+</td>
+</tr>
+<!-- Divider -->
+<tr>
+<td style="padding: 0 24px;"><hr style="border: 0; border-top: 1px solid #e5e7eb; margin: 8px 0 0 0;" /></td>
+</tr>
+<!-- Contact & Address Section -->
+<tr>
+<td style="padding: 14px 24px 0 24px;">
+<p style="margin: 0 0 6px; font-size: 14px; color: #111827; font-weight: bold;">Contact &amp; Address</p>
+<p style="margin: 0; font-size: 12px; color: #4b5563; line-height: 1.5;"><strong>First Name:</strong> {inputs.names.first_name}<br /><strong>Last Name:</strong> {inputs.names.last_name}<br /><strong>Email:</strong> {inputs.email}<br /><strong>Phone Number:</strong> {inputs.phone}<br /><strong>Access to Smart Phone:</strong> {input_radio_smart_phone_access}<br /><br /><strong>Address:</strong><br />{inputs.address_2}</p>
+</td>
+</tr>
+<!-- Payment Information Section -->
+<tr>
+<td style="padding: 14px 24px 0 24px;">
+<p style="margin: 0 0 6px; font-size: 14px; color: #111827; font-weight: bold;">Payment Information</p>
+<p style="margin: 0; font-size: 12px; color: #4b5563; line-height: 1.5;"><strong>Budget:</strong> {inputs.numeric_field_budget}<br /><strong>Paid by Agency?:</strong> {inputs.input_radio_5}<br /><strong>Agency Name:</strong> {inputs.input_text_agency_name}<br /><strong>Agency Contact:</strong> {inputs.input_text_agency_contact}<br /><strong>Agency Contact Phone:</strong> {inputs.phone_agency_contact}<br /><strong>Agency Contact Email:</strong> {inputs.email_agency_contact}</p>
+</td>
+</tr>
+<!-- Client Computer Use History Section -->
+<tr>
+<td style="padding: 14px 24px 0 24px;">
+<p style="margin: 0 0 6px; font-size: 14px; color: #111827; font-weight: bold;">Client Computer Use History</p>
+<p style="margin: 0; font-size: 12px; color: #4b5563; line-height: 1.5;"><strong>Computer Use History:</strong><br />{inputs.input_text_8}</p>
+</td>
+</tr>
+<!-- Appointment Section -->
+<tr>
+<td style="padding: 14px 24px 0 24px;">
+<p style="margin: 0 0 6px; font-size: 14px; color: #111827; font-weight: bold;">Appointment</p>
+<p style="margin: 0; font-size: 12px; color: #4b5563; line-height: 1.5;"><strong>Selected Date &amp; Time:</strong><br />{inputs.fcal_booking_2}</p>
+</td>
+</tr>
+<!-- Miscellaneous Section -->
+<tr>
+<td style="padding: 14px 24px 16px 24px;">
+<p style="margin: 0 0 6px; font-size: 14px; color: #111827; font-weight: bold;">Miscellaneous</p>
+<p style="margin: 0; font-size: 12px; color: #4b5563; line-height: 1.5;"><strong>How did you hear about us?</strong><br />{inputs.checkbox_10}</p>
+</td>
+</tr>
+<!-- Footer -->
+<tr>
+<td style="padding: 10px 24px; text-align: center;">
+<p style="margin: 0; font-size: 11px; color: #9ca3af; line-height: 1.4;">This is an automated email notification.<br />Please do not reply directly to this message.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
